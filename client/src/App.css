@@ -1,0 +1,139 @@
+.App {
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.error-page-container {
+  display: grid;
+  place-items: center;
+}
+
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  backdrop-filter: blur(5px);
+  display: grid;
+  place-items: center;
+}
+
+.error-popup {
+  background-color: white;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 9px 9px 12px -10px rgba(222, 222, 222, 1);
+  -moz-box-shadow: 9px 9px 12px -10px rgba(222, 222, 222, 1);
+  box-shadow: 9px 9px 12px -10px rgba(222, 222, 222, 1);
+}
+
+.error-popup > h3 {
+  color: red;
+}
+
+.card-container {
+  padding: 1rem;
+  margin: 1rem 0;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  opacity: 1;
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 9px 9px 12px -10px rgba(222, 222, 222, 1);
+  -moz-box-shadow: 9px 9px 12px -10px rgba(222, 222, 222, 1);
+  box-shadow: 9px 9px 12px -10px rgba(222, 222, 222, 1);
+}
+.card-container-completed {
+  opacity: 0.3;
+}
+
+.button-center-container {
+  display: grid;
+  place-items: center;
+  width: 100%;
+}
+
+.card-info {
+  width: 90%;
+  cursor: pointer;
+}
+
+.card-info > p {
+  font-size: 1rem;
+  font-weight: light;
+  color: rgb(76, 73, 73);
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.card-checkbox {
+  height: 1.5rem;
+  width: 1.5rem;
+  accent-color: gray;
+}
+
+.button-primary {
+  background-color: #1e90ff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.button-danger {
+  background-color: red;
+  color: white;
+}
+
+.button-transparent {
+  background-color: transparent;
+  color: #1e90ff;
+}
+
+.form-container {
+  display: grid;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.input-field {
+  padding: 0.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  width: 90vw;
+  max-width: 700px;
+}
+
+.input-field:active .input-field:focus {
+  border: none;
+}
+
+.textarea {
+  font-size: 1.25rem;
+  font-weight: lighter;
+}
+
+.button-container {
+  display: flex;
+  justify-content: end;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.input-info {
+  color: rgb(93, 92, 92);
+  font-size: 0.75rem;
+  font-weight: lighter;
+  text-align: right;
+}

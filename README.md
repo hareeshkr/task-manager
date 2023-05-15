@@ -1,4 +1,4 @@
-#Task Manager
+# Task Manager
 
 Task manager is an application where you can add tasks to a list and mark them as complete. You can also delete tasks from the task page as well as edit those from the same task page.
 Adding Task is so simple: Click on Add task button at home page, fill the the Task name and description and click on Submit Button.
